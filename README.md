@@ -1,4 +1,4 @@
-# Time Series Clustering Comparison Framework for Sector-Coupled Capacity Expansion Models
+# Time-Series Clustering Framework for Sector-Coupled Capacity Expansion Models
 
 A research framework for systematically comparing time series aggregation (TSA) methods in energy system capacity expansion modelling. Four clustering approaches are benchmarked using the sector-coupled capacity expansion model built on [GENeSYS-MOD](https://github.com/GENeSYS-MOD/GENeSYS_MOD.jl).
 
