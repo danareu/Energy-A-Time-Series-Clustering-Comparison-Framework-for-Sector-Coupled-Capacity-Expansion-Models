@@ -38,9 +38,9 @@ The required dependencies can be accessed in Project.toml.
 
 ## Data Availability
 
-The `results/` folder is **not included** in this repository due to file size constraints. The full model results required to reproduce the paper figures are published on Zenodo: 10.5281/zenodo.20274562
+The `results/` folder is **not included** in this repository due to file size constraints. The full model results required to reproduce the paper figures are published on Zenodo: 
 
-> 📦 **[Zenodo dataset link]** ← replace with your DOI
+>  **[10.5281/zenodo.20274562]**
 
 To reproduce the figures, download the Zenodo archive and place the contents into the `results/` directory before running the plotting scripts in `plots/`.
 
