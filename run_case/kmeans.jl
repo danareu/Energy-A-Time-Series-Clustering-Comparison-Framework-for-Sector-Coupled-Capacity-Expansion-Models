@@ -6,6 +6,7 @@ using GENeSYS_MOD
 using JuMP
 using Dates
 using Ipopt
+using Random
 using CSV
 using XLSX
 using HiGHS
@@ -86,7 +87,8 @@ for c in CLUSTER_VALUES
     println("Running clusters=$c, hoffmann=$(Switch.hoffmann)")
 
     starttime = Dates.now()
-
+    Random.seed!(6)
+    
     model = JuMP.Model(add_bridges=false)
     Sets, Params, Emp_Sets = GENeSYS_MOD.genesysmod_dataload(Switch)
     println("Timeslice count: ", length(Sets.Timeslice))
